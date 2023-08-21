@@ -1,0 +1,18 @@
+{
+  "name": "bitrix24oracledatabaseintegration",
+  "version": "1.0.0",
+  "description": "This application will connect the bitrix24 CRM with Oracle database to fetch and push records. ",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Salman Naqvi",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20",
+    "oracledb": "^5.5.0"
+  }
+}
